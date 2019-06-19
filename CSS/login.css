@@ -1,0 +1,84 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(../img/new.jpg) no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.loginbox{
+
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 350px;
+height: 420px;
+padding: 20px 40px;
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.1);
+
+
+}
+
+.loginbox h2{
+    text-align: center;
+    padding-bottom: 20px;
+    color:orange;
+}
+
+.loginbox p{
+
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:orange;
+}
+
+.loginbox input{
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type = "text"],
+.loginbox input[type = "password"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:orange;
+    font-size: 16px;
+}
+
+
+
+:: placeholder{
+
+color: orange;
+
+}
+    
+
+
+.loginbox input[type = "button"]
+{
+    border-radius: 10px;
+    height: 30px;
+
+    width: 100px;
+
+}
+
+.create{
+    float: right;
+    color:orange;
+}
